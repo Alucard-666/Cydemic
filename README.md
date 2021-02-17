@@ -14,7 +14,7 @@ Once you have downloaded and installed the above applications you would need to 
 1. Open Visual Studio Code -> Click on Terminal tab and then new terminal.
 2. After that, you can go to the path where you would like to save the project and run "git clone https://github.com/Alucard-666/Cydemic.git". It will start downloading the project to your local machine.
 3. Once you have cloned the project go within the folder using "cd Cydemic".
-4. Then, you can run "npm install" which would install the require node modules to run the app.
+4. Then, you can run "npm install" which would install the require node modules to run the app.(On this case I uploaded them to the git repository but you will always need them to run a Node.js app).
 5. Finally, run the command "nodemon src" to start the app and go the port specify on the code on your prefer browser. For this example would be localhost:3000
 
 Happy coding!!
