@@ -15,7 +15,7 @@ Once you have downloaded and installed the above applications you would need to 
 2. After that, you can go to the path where you would like to save the project and run "git clone https://github.com/Alucard-666/Cydemic.git". It will start downloading the project to your local machine.
 3. Once you have cloned the project go within the folder using "cd Cydemic".
 4. Then, you can run "npm install" which would install the require node modules to run the app.
-5. Finally, run the command "nodemon src" to start the app and go the port specify on the code. For this example would be would be localhost:3000
+5. Finally, run the command "nodemon src" to start the app and go the port specify on the code on your prefer browser. For this example would be localhost:3000
 
 Happy coding!!
 
