@@ -18,6 +18,6 @@ Once you have downloaded and installed the above apps, you would need to install
 4. Then, you can run "npm install" to install the require node modules and dependencies to run your code.
 5. Finally, run the command "nodemon src" to start the app.
 
-Once the application is running you can go to the port specify on the code, on this case it would be localhost:5000
+Once the application is running you can go to the port specify on the code, on this case it would be localhost:3000
 
 Happy coding!!
