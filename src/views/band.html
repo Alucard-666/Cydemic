@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+    .container-small {
+        width: 350px;
+        height: 0px;
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,36 +28,34 @@
                 <div class="col-lg-12 ms-auto animated fadeInLeft ">
                     <h2>Biography</h2>
                     <p> Formed in Grecia, Alajuela in 2020, Cydemic decided exploring the edge between Death Metal, Industrial Metal and Cyber sound effects focusing their lyrics on a technologically consumed world. Cydemic's sound was developed by Cyb3rd3m0n(vocals,
-                        percussion, keyboards, cyber effects) throughout making a combination between Cyber threats topics, Social Engineering and the indisputable human greed to conquer and manipulate both physical world and the cyberspace for their
-                        own purposes.
+                        percussion) and Pando(lead guitar, keyboards and cybersound effects) throughout making a combination between Cyber threats topics, Social Engineering and the indisputable human greed to conquer and manipulate both physical world
+                        and the cyberspace for their own purposes.
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="text-white" style="width:0px; margin:auto; position:relative; top: 80px; right: 150px">
-            <figcaption>Listen to Pantano:</figcaption>
-            <audio controls src="/music/Pantano.mp3" id="audio_player">This browser does not support the audio tag</audio>
+        <div class="container container-small">
+            <div class="row bg-dark text-white p-4 rounded mt-5">
+                <div class="col-lg-7 animated fadeInLeft ">
+                    <h2>Album: Cyberstorm</h2>
+                    <p>
+                        A world consumed mainly by technology and corruption has been penetrating a large part of the world population. This group projects their emotions through mobile devices and social media sites, thus causing an existential vacuum in their lives. This album
+                        reflects that human greed has no limits and that consumerism gives us a fleeting pleasure that seeks to seize current technological resources and the valuable natural resources for the good of a few.</p>
+                    <p>
+                        Unfortunately, this has been accomplished at the cost of manipulating the entire world population by advertising means, generating dependencies towards things that are not essential, and avoiding the real problems that affect humanity nowadays, such as
+                        hunger, poverty, corruption, and social inequality.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="container">
-            <header class="row text-center">
-                <div style="justify-content: flex-end;" class="d-flex mt-3 mb-4">
-                    <div class="col-lg-12 text-center" style="margin-top: 6rem;">
-                        <img src="/img/Grecia.jpg" class="animated zoomIn rounded" style="max-width:80%; padding: 2rem;" alt="Cydemic-members">
-                        <img src="/img/Cyb3rd3m0n-Marceliux97.jpg" class="animated zoomIn rounded" style="max-width:60%; padding: 2rem;" alt="Cydemic-members">
+        <div class="text-white" style="width:0px; margin:auto; position:relative; top: 100px; left: 240px">
+            <figcaption>Listen to D4rkn3t:</figcaption>
+            <audio controls src="/music/D4rkn3t.mp3" id="audio_player">This browser does not support the audio tag</audio>
+        </div>
 
-                    </div>
-            </header>
-            </div>
-
-            <div class="container">
-                <header class="row">
-
-                </header>
-            </div>
-
-            <%- include ('partials/footer.html')%>
+        <%- include ('partials/footer.html')%>
 </body>
 
 </html>
